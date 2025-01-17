@@ -101,7 +101,7 @@ export default function Category() {
         {displayedCategories.map((category, index) => (
           <div
             key={index}
-            className="bg-white shadow-xl hover:shadow-2xl hover:-translate-y-1 rounded-lg p-4 text-left transition duration-500"
+            className="bg-white shadow-xl hover:shadow-2xl hover:-translate-y-1 rounded-lg p-4 text-left transition duration-500 border-2 border-black"
           >
             <img
               src="images/placeholder.png"
