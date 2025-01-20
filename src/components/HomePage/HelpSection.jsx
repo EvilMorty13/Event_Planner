@@ -18,7 +18,7 @@ export default function HelpSection() {
         </h1>
       </div>
 
-      <div className="flex flex-row gap-7 justify-center">
+      <div className="flex flex-col md:flex-row gap-7 justify-center">
         <TextField
           id="outlined-basic"
           label="Enter your name"

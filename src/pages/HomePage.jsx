@@ -1,6 +1,8 @@
 import Category from '../components/HomePage/Category';
+import CustomerCare from '../components/HomePage/CustomerCare';
 import HelpSection from '../components/HomePage/HelpSection';
 import HeroSection from '../components/HomePage/HeroSection';
+import Inspiration from '../components/HomePage/Inspiration';
 import Reason from '../components/HomePage/Reason';
 import Review from '../components/HomePage/Review';
 
@@ -12,6 +14,8 @@ export default function HomePage() {
       <HelpSection/>
       <Reason/>
       <Review/>
+      <CustomerCare/>
+      <Inspiration/>
     </div>
   );
 }
