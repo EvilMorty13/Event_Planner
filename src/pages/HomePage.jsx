@@ -1,5 +1,6 @@
 import Category from '../components/HomePage/Category';
 import CustomerCare from '../components/HomePage/CustomerCare';
+import Download from '../components/HomePage/Download';
 import HelpSection from '../components/HomePage/HelpSection';
 import HeroSection from '../components/HomePage/HeroSection';
 import Inspiration from '../components/HomePage/Inspiration';
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Review/>
       <CustomerCare/>
       <Inspiration/>
+      <Download/>
     </div>
   );
 }
